@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+
+}
+h1{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold ;
+}
+h1:hover{
+    color: greenyellow;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold ;
+}
+h2,p{
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+}
+.card{
+    border: 2px solid red;
+    width: 320px;
+    padding: 25px;
+    /* padding-left: 100px; */
+    margin: 20px;
+}
+.card:hover{
+    border: 5px solid green;
+}
+.img{
+    border-radius: 20px ;
+    border: 2px solid aqua;
+}
+.img:hover{
+
+
+}
+.second{
+    color: blanchedalmond;
+
+}
+.card1{
+    border: 5px dotted green;
+    width: 320px;
+    padding: 20px;
+margin: 20px;
+}
+.card1:hover{
+    border: 5px solid red;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
